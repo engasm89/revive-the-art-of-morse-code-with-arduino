@@ -1,3 +1,11 @@
+/*
+ * Course: Revive The Art Of Morse Code With Arduino
+ * Platform: Arduino
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for Morse logs
 #include <unistd.h> // Include sleep for timing
 
@@ -25,6 +33,7 @@ void morse_O(void) { // 'O' = DASH DASH DASH
   blink_units(DASH); // Dash 3
 } // End morse_O
 
+// Main routine: orchestrates the revive the art of morse code with arduino scenario
 int main(void) { // Entry
   printf("Revive the Art of Morse Code with Arduino!\n"); // Title
   morse_S(); // S

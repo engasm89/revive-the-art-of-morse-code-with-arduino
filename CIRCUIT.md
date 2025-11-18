@@ -1,21 +1,16 @@
-# Arduino Morse — Circuit Schematic
+# Revive The Art Of Morse Code With Arduino — Circuit Notes
 
-- Course: Revive the Art of Morse Code with Arduino!
-- Author: Ashraf S A AlMadhoun
-- Link: https://www.udemy.com/course/arduino-morse-code-generator-morsecodearduino-mors-code-arduino/?couponCode=JULYMAXDICOUNT
+| Signal | Suggested Pin | Notes |
+| --- | --- | --- |
+| Sensor Input | A0 / GPIO | Adjust according to the Arduino board you own. |
+| Actuator Output | D9 / PWM Pin | Use a transistor/driver for high-current loads. |
+| Status LED | D13 or onboard LED | Mirrors the runtime state for quick debugging. |
 
-## Connections
+## Wiring Checklist
 
-- LED on `D13` with resistor; optional buzzer on `D9`.
+1. Power rails first (5V / 3.3V and GND).
+2. Route sensor outputs to the analog/digital pin noted above.
+3. Add current-limiting resistors where appropriate.
+4. Double-check common grounds between modules and the development board.
 
-## Diagram (ASCII)
-
-```
- D13 ---[330Ω]---|> LED --- GND
- D9  -> Buzzer (+)   GND -> Buzzer (-)
-```
-
-## Purchase With Discount
-
-Get a discounted price and practice Morse signaling — use the link above.
-
+Refer to the course lecture for the exact schematic; reuse these notes as a quick reference.
